@@ -8,7 +8,7 @@ export default function Counter() {
   }
   return (
     <div>
-      <h1>{`Button clicked ${count} times`}</h1>
+      <p>{`Button clicked ${count} times`}</p>
       <br></br>
       <button onClick={handleClick}>Click me</button>
     </div>
